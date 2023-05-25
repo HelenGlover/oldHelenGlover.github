@@ -3,11 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-::selection {
-  background: lighten($color: $primary-color, $amount: 10);
-  color: $white;
-}
-
 /* preloader */
 
 .preloader {

@@ -1,5 +1,5 @@
 <!-- footer -->
-<footer class="bg-dark footer-section">
+<!-- <footer class="bg-dark footer-section">
   <div class="section">
     <div class="container">
       <div class="row">
@@ -15,15 +15,30 @@
           <h5 class="text-light">Address</h5>
           <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
         </div>
+    
       </div>
     </div>
   </div>
   <div class="border-top text-center border-dark py-5">
     <p class="mb-0 text-light">{{site.data.settings.copyright | markdownify}}</p>
   </div>
-</footer>
-<!-- /footer -->
+</footer> -->
 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<footer id="footer">
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Helen Glover, 2023</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed with ❤️, ☕, and <a href="https://themefisher.com/">Themefisher</a>
+    </div>
+  </div>
+
+</footer>
 
 <!-- JS Plugins -->
 {% for js in site.data.plugins.js %}

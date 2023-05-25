@@ -1,9 +1,14 @@
 /*  typography */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+
+
 body {
   line-height: 1.2;
-  font-family: $primary-font;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: $text-color;
@@ -11,10 +16,10 @@ body {
 
 p, .paragraph {
   font-weight: 400;
-  color: $text-color;
-  font-size: 15px;
+  color: black;
+  font-size: 18px;
   line-height: 1.8;
-  font-family: $primary-font;
+  font-family: 'Source Sans Pro', sans-serif;
   &-lg{
     font-size: 22px;
   }
@@ -22,7 +27,7 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
-  font-family: $secondary-font;
+  font-family: 'Alegreya', serif;
   line-height: 1.2;
 }
 
@@ -54,4 +59,44 @@ h5, .h5{
 
 h6, .h6{
   font-size: 14px;
+}
+
+.body-heading {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter h1{
+  display: flex;
+  color: #fff;
+  font-weight: 350;
+  font-family: 'Alegreya', serif;
+  overflow: hidden; 
+  border-right: .15em solid rgb(3, 65, 28); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 2s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(3, 65, 28) }
+}
+
+.portfolio-text {
+  text-align: center;
+  font-size:30px;
+  margin-bottom: 0%;
+  margin-top: 3%;
 }
