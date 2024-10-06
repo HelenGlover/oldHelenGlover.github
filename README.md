@@ -1,4 +1,6 @@
-# Welcome👋
+## My old personal website. Visit the [new site](https://helenglover.netlify.app/).
+
+ ### Archived:
 
 Welcome to my personal website! My name is Helen. I am a rising senior at Smith College studying computer science and environmental science.
 
